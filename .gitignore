@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+/.github/agents/
