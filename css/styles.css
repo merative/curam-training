@@ -498,8 +498,22 @@ tr:nth-child(even) td { background: var(--color-bg); }
   }
   .site-nav a { padding: 0.6rem 0.75rem; }
 
-  .toc { position: static; }
+  /* On mobile the TOC sits above content in normal flow — remove max-height/scroll */
+  .toc {
+    position: static;
+    max-height: none;
+    overflow-y: visible;
+  }
+
+  /* Shrink logo slightly on narrow screens */
+  .site-logo img.logo-img { height: 28px; }
 
   th, td { padding: 0.5rem 0.6rem; }
+
+  /* Card grid single column on small screens */
+  .card-grid { grid-template-columns: 1fr; }
+
+  /* PDF grid single column */
+  .pdf-grid { grid-template-columns: 1fr; }
 }
 
