@@ -125,16 +125,17 @@ img, video { max-width: 100%; height: auto; display: block; }
 .breadcrumb {
   padding: 0.6rem 0;
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.85);
+  color: #000000;
+  font-weight: bold;
 }
-.breadcrumb a { color: rgba(255,255,255,0.9); text-decoration: none; }
+.breadcrumb a { color: #000000; text-decoration: none; }
 .breadcrumb a:hover { text-decoration: underline; }
 .breadcrumb span + span::before { content: " / "; }
 
 /* --- Page hero --------------------------------------------- */
 .page-hero {
   background: linear-gradient(135deg, var(--color-orange) 0%, var(--color-orange-dark) 100%);
-  color: #fff;
+  color: #000000;
   padding: 2.5rem 0 2rem;
 }
 .page-hero h1 {
@@ -161,7 +162,7 @@ main {
 
 @media (min-width: 900px) {
   .content-grid {
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: 300px 1fr;
   }
 }
 
