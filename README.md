@@ -1,6 +1,6 @@
 # Cúram Education Site
 
-A plain HTML/CSS/JavaScript static site for Cúram Education content, including training courses, learning paths, and certification information.
+A dedicated website for Cúram Education content, including training courses, learning paths, and certification information.
 
 ## Deploying to GitHub Pages
 
